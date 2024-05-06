@@ -22,7 +22,11 @@ export default defineConfig({
         permissions: [
             'sidePanel',
             "tabs",
-            "scripting"
+            "scripting",
+            "activeTab"
+        ],
+        host_permissions: [
+            '*://read.amazon.co.jp/*'
         ]
     }
 });
