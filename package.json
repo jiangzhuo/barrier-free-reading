@@ -19,6 +19,11 @@
     "wxt": "^0.17.0"
   },
   "dependencies": {
+    "esearch-ocr": "^4.1.2",
+    "js-clipper": "^1.0.1",
+    "onnxruntime-node": "^1.17.3-rev.1",
+    "onnxruntime-web": "^1.17.3",
+    "opencv.js": "^1.2.1",
     "webext-bridge": "file:../webext-bridge"
   }
 }
